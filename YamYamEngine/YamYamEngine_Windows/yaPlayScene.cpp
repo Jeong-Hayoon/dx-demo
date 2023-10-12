@@ -237,6 +237,7 @@ namespace ya
 	}
 
 	void PlayScene::Load()
+	void PlayScene::Load()
 	{
 		OPENFILENAME ofn = {};
 
@@ -267,6 +268,7 @@ namespace ya
 			//if (fread(&myPos, sizeof(Vector3), 1, pFile) == NULL)
 				//break;
 
+			Tile* tile = new Tile();
 
 			Vector3 offset = Vector3::Zero;
 
